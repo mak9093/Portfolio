@@ -611,7 +611,7 @@ about .about-content .personal-info  .buttons{
         max-width: 50%;
     }
     .portfolio .portfolio-item{
-        flex: 0 0 27%;
+        flex: 0 0 50%;
         max-width: 50%;
     }
     .about .about-content .skills,
@@ -623,6 +623,7 @@ about .about-content .personal-info  .buttons{
     }
 }
 @media (max-width:767px){
+    .portfolio .portfolio-item,
     .contact .contact-form .col-6,
     .contact .contact-info-item,
     .about .about-content .education,
