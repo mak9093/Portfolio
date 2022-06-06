@@ -7,6 +7,13 @@
     --text-black-900:#302e4d;
     --text-black-700:#502e70;
 }
+body.dark{
+    --bg-black-900:#151515;
+    --bg-black-100:#222222;
+    --bg-black-50:#393939;
+    --text-black-900:#ffffff;
+    --text-black-700:#e9e9e9;
+}
 body{
     
     line-height:1.5;
@@ -256,7 +263,7 @@ h3.my-profession{
     margin: 15px 0;
 }
 .typing{
-    color-scheme: var(--skin-color);
+    color: var(--skin-color);
 }
 .home-info p{
     margin-bottom: 70px;
@@ -494,7 +501,7 @@ about .about-content .personal-info  .buttons{
 }
 .portfolio .portfolio-item a{
     flex:0 0 33.33%;
-    max-width: 20%;
+    max-width: 33.33%;
     margin-bottom: 30px;
 }
 .portfolio .portfolio-item-inner a{
